@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import '../model/pegawai.dart';
-import '../model/database.dart';
 
 class PegawaiDetail extends StatefulWidget {
   final Pegawai pegawai;
@@ -15,7 +14,7 @@ class _PegawaiDetailState extends State<PegawaiDetail> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title: Text("Detail Pegawai")),
+        appBar: AppBar(title: Text("Detail Pegawai RS")),
         body: Column(
           // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
@@ -52,7 +51,6 @@ class _PegawaiDetailState extends State<PegawaiDetail> {
                 )
               ],
             ),
-
             const SizedBox(height: 50),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,

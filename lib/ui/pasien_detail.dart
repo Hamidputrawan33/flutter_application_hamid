@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import '../model/pasien.dart';
-import '../model/database.dart';
 
 class PasienDetail extends StatefulWidget {
   final Pasien pasien;
